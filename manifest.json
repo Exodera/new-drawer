@@ -1,6 +1,6 @@
 {
     "manifest_version": 3,
-    "version":"0.1.5",
+    "version":"0.1.6",
     "name":"NetDrawer",
     "description": "An offline place to save your Net Passwords",
     "action":{

@@ -1,0 +1,26 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+.app-container{
+    width: 300px;
+    background-color: antiquewhite;
+    /* display: flex; */
+}
+
+h1{
+    padding-bottom: 1.5rem;
+}
+
+.add-pass-container{
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+    padding-left: 1rem;
+}
+
+.pass-list{
+    padding-left: 1rem;
+
+}
