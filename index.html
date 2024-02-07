@@ -13,24 +13,23 @@
     <div class="app-container p-2">
         <h1 class="text-primary text-center">NetDrawer</h1>
 
-        <div>
+        <div class="pass-container border rounded p-2">
             <h4 class="">Password List:</h2>
                 
            <div class="px-2">
-                <ul class="pass-list list-unstyled">
-                    <li>1st</li>
-                    <li>2nd</li>
+                <ul class="list-unstyled" id="pass-list">
+
                 </ul>
            </div>
         </div>
 
-        <hr class="w-25 m-auto">
+        <hr class="w-25 m-auto mb-3">
         
-        <div class="">
-            <h3 class="">Add New:</h3>
+        <div class="border rounded p-2">
+            <h4 class="">Add New:</h4>
             <div class="add-pass-container">
-                <input class="" type="text" placeholder="password">
-                <button class="btn btn-primary d-block">Add</button>
+                <input id="pass-input" class="rounded p-2" type="text" placeholder="password">
+                <button id="save-btn" class="btn btn-success d-block" onclick="updateList()" >Add</button>
             </div>
         </div>
 

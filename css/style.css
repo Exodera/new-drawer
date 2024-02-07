@@ -5,12 +5,15 @@ body{
 
 .app-container{
     width: 300px;
-    background-color: antiquewhite;
+    background-color:cadetblue;
     /* display: flex; */
 }
 
 h1{
     padding-bottom: 1.5rem;
+}
+h4{
+    /* color: */
 }
 
 .add-pass-container{
